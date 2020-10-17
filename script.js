@@ -4,11 +4,11 @@ var storage;        //Used to store the calcluations.
 
 function fibonacciCalc(num) {
         for (i = 0; i < num; i++) {     //loop trough the times user wants fibonachi calculations to be done.
+            storage = num1 + num2;      //storage = num1 + num2; | Which will change due to the loop doing this 20x. 
             num1 = num2;                // num 1  = 2 (1)
             num2 = storage;             //num 2 = storage
-            storage = num1 + num2;      //storage = num1 + num2; | Which will change due to the loop doing this 20x. 
-            console.log(num2);
-            document.write(storage + "<br>")
+            console.log(num2);          
+            document.write(storage + "<br>") //Print to dom + <br> 
         }
     
 }
