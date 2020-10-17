@@ -1,5 +1,5 @@
 var num1 = 0;       //Begin number1 = 0;
-var num2 = 1;       //Begin number2 = 0;
+var num2 = 1;       //Begin number2 = 1;
 var storage;        //Used to store the calcluations.
 
 function fibonacciCalc(num) {
